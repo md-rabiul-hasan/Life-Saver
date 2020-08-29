@@ -10,8 +10,8 @@
    
     <li class="treeview"><a class="app-menu__item" href="#" data-toggle="treeview"><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Location</span><i class="treeview-indicator fa fa-angle-right"></i></a>
       <ul class="treeview-menu">
-        <li><a class="treeview-item" href="form-components.html"><i class="icon fa fa-circle-o"></i> Division</a></li>
-        <li><a class="treeview-item" href="form-custom.html"><i class="icon fa fa-circle-o"></i> District</a></li>
+        <li><a class="treeview-item" href="{{ route('backend.division.index') }}"><i class="icon fa fa-circle-o"></i> Division</a></li>
+        <li><a class="treeview-item" href="{{ route('backend.district.index') }}"><i class="icon fa fa-circle-o"></i> District</a></li>
         <li><a class="treeview-item" href="form-samples.html"><i class="icon fa fa-circle-o"></i> Upazila</a></li>
       </ul>
     </li>

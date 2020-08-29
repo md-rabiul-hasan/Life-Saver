@@ -20,3 +20,12 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+
+Route::group(["namespace"=>"Backend","as"=>"backend."],function(){
+    // Division Controller 
+    Route::get('/division','DivisionController@index')->name('division.index');
+
+    // District Controller
+    Route::get('/district','DistrictController@index')->name('district.index');
+});
