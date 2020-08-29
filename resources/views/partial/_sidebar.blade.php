@@ -12,7 +12,7 @@
       <ul class="treeview-menu">
         <li><a class="treeview-item" href="{{ route('backend.division.index') }}"><i class="icon fa fa-circle-o"></i> Division</a></li>
         <li><a class="treeview-item" href="{{ route('backend.district.index') }}"><i class="icon fa fa-circle-o"></i> District</a></li>
-        <li><a class="treeview-item" href="form-samples.html"><i class="icon fa fa-circle-o"></i> Upazila</a></li>
+        <li><a class="treeview-item"  href="{{ route('backend.upazila.index') }}"><i class="icon fa fa-circle-o"></i> Upazila</a></li>
       </ul>
     </li>
     <li><a class="app-menu__item" href="docs.html"><i class="app-menu__icon fa fa-file-code-o"></i><span class="app-menu__label">Docs</span></a></li>

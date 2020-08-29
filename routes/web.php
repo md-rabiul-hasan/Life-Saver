@@ -28,4 +28,7 @@ Route::group(["namespace"=>"Backend","as"=>"backend."],function(){
 
     // District Controller
     Route::get('/district','DistrictController@index')->name('district.index');
+
+    // District Controller
+    Route::get('/upazila','UpazillaControler@index')->name('upazila.index');
 });
