@@ -34,6 +34,11 @@ Route::group(["namespace" => "Backend", "as" => "backend."], function () {
     // Blodd Group Controller
     Route::get('/blood-group', 'BloodController@index')->name('blood.index');
     Route::get('/blood-group/create', 'BloodController@createBloodGroup')->name('blood.create');
-    Route::post('/blood-group/save','BloodController@saveBloodGroup')->name('blood.save');
+    Route::post('/blood-group/save', 'BloodController@saveBloodGroup')->name('blood.save');
+
+    // Hospital Controller
+    Route::get('/hospitals', 'HospitalController@index')->name('hospital.index');
+    Route::get('/hospitals/create', 'HospitalController@create')->name('hospital.create');
+    Route::post('/hospitals/save', 'HospitalController@save')->name('hospital.save');
 
 });
