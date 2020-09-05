@@ -27,4 +27,10 @@
         <span class="app-menu__label">Hospital</span>
       </a>
     </li>
+    <li>
+      <a class="app-menu__item" href="{{ route('backend.donor.index') }}">
+        <i class="app-menu__icon fa fa-file-code-o"></i>
+        <span class="app-menu__label">Donners</span>
+      </a>
+    </li>
   </ul>
